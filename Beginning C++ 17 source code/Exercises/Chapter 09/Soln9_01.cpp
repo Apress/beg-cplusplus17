@@ -16,7 +16,7 @@ int main()
 
   int big_int {17011983}, small_int {10}, negative_int {-123};
   std::cout << negative_int << " clamped to the interval [" << small_int << "," << big_int 
-            << " is " << my_clamp(negative_int, big_int, small_int) << std::endl;
+            << "] is " << my_clamp(negative_int, small_int, big_int) << std::endl;
 
   // And now for a less useful example...
   std::string a_string {"A"}, z_string {"Z"};
