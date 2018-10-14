@@ -10,7 +10,7 @@ int main()
   const size_t n {50};
   size_t odds[n];
   for (size_t i {}; i < n; ++i)
-    odds[i] = i + 1;
+    odds[i] = 2*i + 1;
 
   const size_t perline {10};
   std::cout << "The numbers are:\n";
