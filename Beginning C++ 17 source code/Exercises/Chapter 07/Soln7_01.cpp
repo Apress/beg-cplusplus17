@@ -36,7 +36,7 @@ int main()
 
     std::cout << "Do you wish to enter another student's details (y/n): ";
 	char answer {};
-    std::cin >> answer;
+    std::cin >> answer;//this statement will cause next name to contain only /n and skipped over. 
     if (std::toupper(answer) == 'N') break;
   } 
 
