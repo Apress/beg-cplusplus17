@@ -3,7 +3,7 @@
 #include <memory>
 #include <cstdlib>                                 // For random number generator
 #include <ctime>                                   // For time function
-#include "Truckload.h"
+#include "Truckload.cpp"
 
 // Function to generate integral random box dimensions from 1 to max_size
 inline double random(double max_size)
