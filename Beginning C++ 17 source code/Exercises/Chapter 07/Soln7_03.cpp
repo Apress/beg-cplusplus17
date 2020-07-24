@@ -15,7 +15,7 @@ int main()
   std::cout << "\nEnter the word to be replaced: ";
   std::cin >> word;
   
-  std::string lower_word{word};                              // Convert word to lower case
+  std::string lower_word;                                    // Convert word to lower case
   for (auto ch : word)                                       // (we do so once, rather than with every iteration of the loop)
     lower_word += std::tolower(ch);
 
