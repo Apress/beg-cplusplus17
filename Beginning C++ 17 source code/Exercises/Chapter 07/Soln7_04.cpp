@@ -34,7 +34,7 @@ int main()
         word2_copy.erase(i, 1);                  // Character found so erase from word2
         break;                                   // Caution: do not use erase(i), because that erases the entire substring starting at index i!
       }
-	}
+    }
   }
 
   std::cout << word1 << " and " << word2 << " are "
