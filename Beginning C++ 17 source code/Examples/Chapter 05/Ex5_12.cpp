@@ -17,7 +17,7 @@ int main()
   {
     std::cout <<"Enter a height: ";
     std::cin >> height[entered];
-    if (height[entered > 0])                 // Make sure value is positive
+    if (height[entered] > 0)                 // Make sure value is positive
     {
       ++entered;
     }
